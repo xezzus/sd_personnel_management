@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>sd_personnel_management</id>
+    <name>Управление персоналом</name>
+    <version>1.0</version>
+    <status>active</status>
+    <description>Тестовый модуль</description>
+    <default_language>ru</default_language>
+    
+</addon>
