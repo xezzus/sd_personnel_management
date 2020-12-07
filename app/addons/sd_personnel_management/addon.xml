@@ -6,5 +6,10 @@
     <status>active</status>
     <description>Тестовый модуль</description>
     <default_language>ru</default_language>
+
+    <queries>
+      <item for="install" type="file">database/install.sql</item>
+      <item for="uninstall" type="file">database/uninstall.sql</item>
+    </queries>
     
 </addon>
