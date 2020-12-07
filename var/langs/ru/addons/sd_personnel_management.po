@@ -9,6 +9,10 @@ msgctxt "Addons::name::sd_personnel_management"
 msgid "Personnel management"
 msgstr "Управление персоналом"
 
+msgctxt "Languages::sd_personnel_management_menu_description"
+msgid "Edit personnel management."
+msgstr "Редактирование персонала."
+
 msgctxt "Addons::description::sd_personnel_management"
 msgid "Personnel management description"
 msgstr "Управление персоналом описание"
