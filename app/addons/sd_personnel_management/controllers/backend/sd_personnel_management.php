@@ -1,8 +1,8 @@
 <?php
 
 if ($mode == 'manage') {
-    $data = 2;
-    Tygh::$app['view']->assign('all_data', $data);
+    $data = db_get_array('select * from sd_personnel_management');
+    Tygh::$app['view']->assign('data', $data);
 }
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       'pos' => $_POST['pos']
     ];
 
-    $id = db_query('insert into sd_personnel_management ?e',$user_data);
+    db_query('insert into sd_personnel_management ?e',$user_data);
 
     //file_put_contents(__DIR__.'/test.'.microtime(1).'.txt',json_encode($_POST));
     $_REQUEST['redirect_url'] = '/admin.php?dispatch=sd_personnel_management.manage';
