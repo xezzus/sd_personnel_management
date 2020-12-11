@@ -18,11 +18,7 @@
 {/capture}
 
 {capture name="buttons"}
-    {$smarty.capture.buttons_insert}
-{/capture}
-
-{capture name="adv_buttons"}
-    {$smarty.capture.adv_buttons nofilter}
+        {include file="buttons/button.tpl" but_text=__("button_add") but_role="action" but_href="/?dispatch=sd_personnel_management.insert"}
 {/capture}
 
 {capture name="sidebar"}

@@ -17,3 +17,15 @@ msgctxt "Languages::sd_personnel_management"
 msgid "Personnel management"
 msgstr "Personnel management"
 
+msgctxt "Languages::button_add"
+msgid "Add"
+msgstr "Add"
+
+msgctxt "Languages::function_title"
+msgid "Function title"
+msgstr "Function title"
+
+msgctxt "Languages::pos"
+msgid "Point of sale"
+msgstr "Point of sale"
+

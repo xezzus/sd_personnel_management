@@ -21,3 +21,15 @@ msgctxt "Languages::sd_personnel_management"
 msgid "Personnel management"
 msgstr "Управление персоналом"
 
+msgctxt "Languages::button_add"
+msgid "Add"
+msgstr "Добавить"
+
+msgctxt "Languages::function_title"
+msgid "Function title"
+msgstr "Должность"
+
+msgctxt "Languages::pos"
+msgid "Point of sale"
+msgstr "Точка продажи"
+
